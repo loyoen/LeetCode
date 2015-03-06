@@ -3,6 +3,7 @@
     way1:   use KMP between the original string and its rollovered.
     way2:   dynamic programming. PalinOrNot[i][j] represent the substring from i to j is palindromic or not.
 '''
+# way2 use python is Time Limit Exceeded, but c++ is accept. I do not know WHY.
 class Solution:
     # @return a string
     def longestPalindrome(self, s):
