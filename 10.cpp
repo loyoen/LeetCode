@@ -1,3 +1,7 @@
+//Regular Expression Matching
+/*
+   * compare recursively and each time the last element should be taken into consideration
+*/
 #include <stdlib.h>
 #include <stdio.h>
 #include <iostream>
